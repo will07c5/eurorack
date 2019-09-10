@@ -36,7 +36,7 @@ AR Path="/5D307205" Ref="U?"  Part="3"
 AR Path="/5D2AE37F/5D307205" Ref="U5"  Part="3" 
 F 0 "U5" H 4700 1767 50  0000 C CNN
 F 1 "LM13700" H 4700 1676 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4400 1425 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4400 1425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 4400 1425 50  0001 C CNN
 	3    4700 1400
 	1    0    0    -1  
@@ -49,7 +49,7 @@ AR Path="/5D30720B" Ref="U?"  Part="4"
 AR Path="/5D2AE37F/5D30720B" Ref="U5"  Part="4" 
 F 0 "U5" H 5750 1748 50  0000 C CNN
 F 1 "LM13700" H 5750 1657 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5550 1425 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5550 1425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 5550 1425 50  0001 C CNN
 	4    5850 1400
 	1    0    0    -1  
@@ -62,7 +62,7 @@ AR Path="/5D307211" Ref="U?"  Part="5"
 AR Path="/5D2AE37F/5D307211" Ref="U5"  Part="5" 
 F 0 "U5" H 9558 4096 50  0000 L CNN
 F 1 "LM13700" H 9558 4005 50  0000 L CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9300 4075 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9300 4075 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9300 4075 50  0001 C CNN
 	5    9600 4050
 	1    0    0    -1  
@@ -408,7 +408,7 @@ U 1 1 5D4B732D
 P 2650 6650
 F 0 "U6" H 2650 7017 50  0000 C CNN
 F 1 "TL072" H 2650 6926 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2650 6650 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2650 6650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2650 6650 50  0001 C CNN
 	1    2650 6650
 	1    0    0    -1  
@@ -419,7 +419,7 @@ U 2 1 5D4B9E10
 P 5650 6650
 F 0 "U6" H 5650 7017 50  0000 C CNN
 F 1 "TL072" H 5650 6926 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5650 6650 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5650 6650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5650 6650 50  0001 C CNN
 	2    5650 6650
 	1    0    0    -1  
@@ -430,7 +430,7 @@ U 3 1 5D4BC01A
 P 9100 4050
 F 0 "U6" H 9058 4096 50  0000 L CNN
 F 1 "TL072" H 9058 4005 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9100 4050 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 9100 4050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9100 4050 50  0001 C CNN
 	3    9100 4050
 	1    0    0    -1  
@@ -441,7 +441,7 @@ U 1 1 5D4C01F9
 P 3000 3500
 F 0 "U4" H 3150 3750 50  0000 L CNN
 F 1 "TL071" H 3150 3650 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 3550 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3050 3550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3150 3650 50  0001 C CNN
 	1    3000 3500
 	1    0    0    -1  
@@ -859,7 +859,7 @@ AR Path="/5D30E673" Ref="U?"  Part="1"
 AR Path="/5D2AE37F/5D30E673" Ref="U5"  Part="1" 
 F 0 "U5" H 9850 2867 50  0000 C CNN
 F 1 "LM13700" H 9850 2776 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9550 2525 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9550 2525 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9550 2525 50  0001 C CNN
 	1    9850 2500
 	1    0    0    -1  
@@ -872,7 +872,7 @@ AR Path="/5D3071FF" Ref="U?"  Part="2"
 AR Path="/5D2AE37F/5D3071FF" Ref="U5"  Part="2" 
 F 0 "U5" H 9950 2048 50  0000 C CNN
 F 1 "LM13700" H 9950 1957 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9750 1725 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9750 1725 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9750 1725 50  0001 C CNN
 	2    10050 1700
 	1    0    0    -1  

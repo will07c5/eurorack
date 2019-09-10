@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AS3320_VCF)(type Legacy)(uri ${KIPRJMOD}/AS3320_VCF.lib)(options "")(descr ""))
+)
