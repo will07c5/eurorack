@@ -1,0 +1,39 @@
+
+================ AS3340_VCO ================
+
+Rev. 1:
+
+- Initial design using SMD ICs.
+
+Rev. 2:
+
+- Added text indicating type of board and rev
+- Switched to socketed DIP chips for easier repair
+- Changed tuning method to 4 pot (as described in the AS3340 tuning doc)
+- Adjusted various resistor values.
+- Switched to precision input resistors
+
+================ AS3320_VCF ================
+
+Rev. 1:
+
+- Initial design
+
+================ AS3360_VCA ================
+
+Rev. 1:
+
+- Initial design
+
+================ AS3310_ADSR ===============
+
+Rev. 1:
+
+- Initial design
+
+================ ER_Bus_Board ==============
+
+Rev. 1:
+
+- Initial design
+

@@ -1,0 +1,18 @@
+================ AS3340_VCO =================
+
+================ AS3310_ADSR ================
+
+- Missing descriptions of ports on the silk screen
+
+================ AS3360_VCA =================
+
+- Missing descriptions of ports on the silk screen
+
+================ AS3320_VCF =================
+
+- Missing descriptions of ports on the silk screen
+
+================ ER_Bus_Board ===============
+
+- "Upside down" (power input is on the left rather than the right)
+- Missing descriptions of ports on the silk screen
