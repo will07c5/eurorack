@@ -1,18 +1,29 @@
 ================ AS3340_VCO =================
 
+- PWM input is inverted
+- R10 busted??
+- Make rear CV input disabled when CV1 is plugged in
+- Need more metal around mounting holes
+
 ================ AS3310_ADSR ================
 
 - Missing descriptions of ports on the silk screen
+- Need more metal around mounting holes
 
 ================ AS3360_VCA =================
 
 - Missing descriptions of ports on the silk screen
+- Need more metal around mounting holes
+- Op amp -12V rail connected to ground
 
 ================ AS3320_VCF =================
 
 - Missing descriptions of ports on the silk screen
+- Need more metal around mounting holes
 
 ================ ER_Bus_Board ===============
 
 - "Upside down" (power input is on the left rather than the right)
 - Missing descriptions of ports on the silk screen
+- Need more metal around mounting holes
+
