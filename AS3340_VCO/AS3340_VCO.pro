@@ -1,5 +1,5 @@
-update=Monday, July 15, 2019 at 06:15:02 PM
-last_client=kicad
+update=Wednesday, September 11, 2019 at 03:10:09 PM
+last_client=pcbnew
 [general]
 version=1
 [pcbnew]
@@ -23,7 +23,7 @@ TrackWidth2=0.5
 TrackWidth3=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
-ViaDiameter2=3.5
+ViaDiameter2=4
 ViaDrill2=3
 dPairWidth1=0.2
 dPairGap1=0.25

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -17,14 +17,12 @@ $EndDescr
 Text HLabel 1700 3600 0    50   Input ~ 0
 RAW_TRI
 Text HLabel 1550 6750 0    50   Input ~ 0
-RAW_SAW
-Text HLabel 4600 6750 0    50   Input ~ 0
+RAW_RAMP
+Text HLabel 7900 5800 0    50   Input ~ 0
 RAW_PULSE
-Text HLabel 4550 3500 2    50   Output ~ 0
-TRI
 Text HLabel 3300 6650 2    50   Output ~ 0
 SAW
-Text HLabel 6350 6650 2    50   Output ~ 0
+Text HLabel 9650 5700 2    50   Output ~ 0
 PULSE
 Text HLabel 6750 1500 2    50   Output ~ 0
 SINE
@@ -416,12 +414,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U6
 U 2 1 5D4B9E10
-P 5650 6650
-F 0 "U6" H 5650 7017 50  0000 C CNN
-F 1 "TL072" H 5650 6926 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5650 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5650 6650 50  0001 C CNN
-	2    5650 6650
+P 4250 5750
+F 0 "U6" H 4250 6117 50  0000 C CNN
+F 1 "TL072" H 4250 6026 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4250 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4250 5750 50  0001 C CNN
+	2    4250 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -435,57 +433,22 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9100 4050 50  0001 C CNN
 	3    9100 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:TL071 U4
-U 1 1 5D4C01F9
-P 3000 3500
-F 0 "U4" H 3150 3750 50  0000 L CNN
-F 1 "TL071" H 3150 3650 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3050 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3150 3650 50  0001 C CNN
-	1    3000 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 6750 2250 6750
 Wire Wire Line
 	3050 6650 2950 6650
 Wire Wire Line
-	5350 6750 5200 6750
+	8650 5800 8500 5800
 Wire Wire Line
-	6050 6650 5950 6650
+	9350 5700 9250 5700
 Wire Wire Line
 	3050 6650 3300 6650
 Connection ~ 3050 6650
 Wire Wire Line
-	3300 3500 3450 3500
-Wire Wire Line
-	6050 6650 6350 6650
-Connection ~ 6050 6650
-$Comp
-L power:+12V #PWR?
-U 1 1 5D4D3250
-P 2900 3150
-AR Path="/5D4D3250" Ref="#PWR?"  Part="1" 
-AR Path="/5D2AE37F/5D4D3250" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 2900 3000 50  0001 C CNN
-F 1 "+12V" H 2915 3323 50  0000 C CNN
-F 2 "" H 2900 3150 50  0001 C CNN
-F 3 "" H 2900 3150 50  0001 C CNN
-	1    2900 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 3150 2900 3200
-Wire Wire Line
-	2900 3800 2900 3850
-NoConn ~ 3000 3800
-NoConn ~ 3100 3800
+	9350 5700 9650 5700
+Connection ~ 9350 5700
 Wire Wire Line
 	2700 3600 2600 3600
-Connection ~ 3450 3500
-Wire Wire Line
-	3450 3500 4550 3500
 Wire Wire Line
 	2700 3400 2300 3400
 $Comp
@@ -594,106 +557,106 @@ Wire Wire Line
 $Comp
 L Device:R_US R?
 U 1 1 5D513054
-P 4850 6750
+P 8150 5800
 AR Path="/5D513054" Ref="R?"  Part="1" 
 AR Path="/5D2AE37F/5D513054" Ref="R38"  Part="1" 
-F 0 "R38" V 5055 6750 50  0000 C CNN
-F 1 "24K" V 4964 6750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4890 6740 50  0001 C CNN
-F 3 "~" H 4850 6750 50  0001 C CNN
-	1    4850 6750
+F 0 "R38" V 8355 5800 50  0000 C CNN
+F 1 "24K" V 8264 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8190 5790 50  0001 C CNN
+F 3 "~" H 8150 5800 50  0001 C CNN
+	1    8150 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5D513604
-P 5650 7150
+P 8950 6200
 AR Path="/5D513604" Ref="R?"  Part="1" 
 AR Path="/5D2AE37F/5D513604" Ref="R39"  Part="1" 
-F 0 "R39" V 5855 7150 50  0000 C CNN
-F 1 "9.1K" V 5764 7150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5690 7140 50  0001 C CNN
-F 3 "~" H 5650 7150 50  0001 C CNN
-	1    5650 7150
+F 0 "R39" V 9155 6200 50  0000 C CNN
+F 1 "9.1K" V 9064 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8990 6190 50  0001 C CNN
+F 3 "~" H 8950 6200 50  0001 C CNN
+	1    8950 6200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5200 7150 5500 7150
+	8500 6200 8800 6200
 Wire Wire Line
-	5200 6750 5200 7150
+	8500 5800 8500 6200
 Wire Wire Line
-	5800 7150 6050 7150
+	9100 6200 9350 6200
 Wire Wire Line
-	6050 6650 6050 7150
+	9350 5700 9350 6200
 Wire Wire Line
-	5000 6750 5200 6750
-Connection ~ 5200 6750
+	8300 5800 8500 5800
+Connection ~ 8500 5800
 Wire Wire Line
-	4600 6750 4700 6750
+	7900 5800 8000 5800
 $Comp
 L Device:R_POT_TRIM_US RV?
 U 1 1 5D52ACBF
-P 4350 6100
+P 7650 5150
 AR Path="/5D52ACBF" Ref="RV?"  Part="1" 
 AR Path="/5D2AE37F/5D52ACBF" Ref="RV11"  Part="1" 
-F 0 "RV11" H 4282 6146 50  0000 R CNN
-F 1 "20K" H 4282 6055 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 4350 6100 50  0001 C CNN
-F 3 "~" H 4350 6100 50  0001 C CNN
-	1    4350 6100
+F 0 "RV11" H 7582 5196 50  0000 R CNN
+F 1 "20K" H 7582 5105 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 7650 5150 50  0001 C CNN
+F 3 "~" H 7650 5150 50  0001 C CNN
+	1    7650 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5D52ACC5
-P 4350 5650
+P 7650 4700
 AR Path="/5D52ACC5" Ref="R?"  Part="1" 
 AR Path="/5D2AE37F/5D52ACC5" Ref="R37"  Part="1" 
-F 0 "R37" H 4418 5696 50  0000 L CNN
-F 1 "100K" H 4418 5605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4390 5640 50  0001 C CNN
-F 3 "~" H 4350 5650 50  0001 C CNN
-	1    4350 5650
+F 0 "R37" H 7718 4746 50  0000 L CNN
+F 1 "100K" H 7718 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7690 4690 50  0001 C CNN
+F 3 "~" H 7650 4700 50  0001 C CNN
+	1    7650 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5D52ACCB
-P 4350 5400
+P 7650 4450
 AR Path="/5D52ACCB" Ref="#PWR?"  Part="1" 
 AR Path="/5D2AE37F/5D52ACCB" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 4350 5250 50  0001 C CNN
-F 1 "+12V" H 4365 5573 50  0000 C CNN
-F 2 "" H 4350 5400 50  0001 C CNN
-F 3 "" H 4350 5400 50  0001 C CNN
-	1    4350 5400
+F 0 "#PWR0122" H 7650 4300 50  0001 C CNN
+F 1 "+12V" H 7665 4623 50  0000 C CNN
+F 2 "" H 7650 4450 50  0001 C CNN
+F 3 "" H 7650 4450 50  0001 C CNN
+	1    7650 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5D52ACD1
-P 4350 6350
+P 7650 5400
 AR Path="/5D52ACD1" Ref="#PWR?"  Part="1" 
 AR Path="/5D2AE37F/5D52ACD1" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 4350 6100 50  0001 C CNN
-F 1 "GNDREF" H 4355 6177 50  0001 C CNN
-F 2 "" H 4350 6350 50  0001 C CNN
-F 3 "" H 4350 6350 50  0001 C CNN
-	1    4350 6350
+F 0 "#PWR0123" H 7650 5150 50  0001 C CNN
+F 1 "GNDREF" H 7655 5227 50  0001 C CNN
+F 2 "" H 7650 5400 50  0001 C CNN
+F 3 "" H 7650 5400 50  0001 C CNN
+	1    7650 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 6250 4350 6350
+	7650 5300 7650 5400
 Wire Wire Line
-	4350 5800 4350 5950
+	7650 4850 7650 5000
 Wire Wire Line
-	4350 5400 4350 5500
+	7650 4450 7650 4550
 Wire Wire Line
-	4500 6100 5050 6100
+	7800 5150 8350 5150
 Wire Wire Line
-	5050 6100 5050 6550
+	8350 5150 8350 5600
 Wire Wire Line
-	5050 6550 5350 6550
+	8350 5600 8650 5600
 $Comp
 L power:+12V #PWR?
 U 1 1 5D541C6D
@@ -737,29 +700,8 @@ F 3 "~" H 2050 3600 50  0001 C CNN
 	1    2050 3600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D551AEB
-P 3050 4300
-AR Path="/5D551AEB" Ref="R?"  Part="1" 
-AR Path="/5D2AE37F/5D551AEB" Ref="R25"  Part="1" 
-F 0 "R25" V 3255 4300 50  0000 C CNN
-F 1 "10K" V 3164 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3090 4290 50  0001 C CNN
-F 3 "~" H 3050 4300 50  0001 C CNN
-	1    3050 4300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2600 4300 2900 4300
 Wire Wire Line
 	2600 3600 2600 4300
-Wire Wire Line
-	3200 4300 3450 4300
-Wire Wire Line
-	3450 3500 3450 4300
-Wire Wire Line
-	3450 3500 3450 2150
 Wire Wire Line
 	3450 2150 3750 2150
 Wire Wire Line
@@ -887,19 +829,162 @@ Text Notes 4300 2550 0    50   ~ 0
 Sine Level Trim
 Text Notes 600  5850 0    50   ~ 0
 Saw Offset Trim
-Text Notes 3550 5950 0    50   ~ 0
+Text Notes 6850 5000 0    50   ~ 0
 Pulse Offset Trim
 $Comp
+L Amplifier_Operational:TL072 U7
+U 1 1 5DB003BB
+P 3000 3500
+F 0 "U7" H 3000 3867 50  0000 C CNN
+F 1 "TL072" H 3000 3776 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3000 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3000 3500 50  0001 C CNN
+	1    3000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4300 3450 4300
+Wire Wire Line
+	2600 4300 2900 4300
+$Comp
+L Device:R_US R?
+U 1 1 5D551AEB
+P 3050 4300
+AR Path="/5D551AEB" Ref="R?"  Part="1" 
+AR Path="/5D2AE37F/5D551AEB" Ref="R25"  Part="1" 
+F 0 "R25" V 3255 4300 50  0000 C CNN
+F 1 "10K" V 3164 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3090 4290 50  0001 C CNN
+F 3 "~" H 3050 4300 50  0001 C CNN
+	1    3050 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 3500 4550 3500
+Wire Wire Line
+	3450 3500 3450 2150
+Connection ~ 3450 3500
+Wire Wire Line
+	3300 3500 3450 3500
+Text HLabel 4550 3500 2    50   Output ~ 0
+TRI
+Wire Wire Line
+	3450 3500 3450 4300
+$Comp
+L Amplifier_Operational:TL072 U7
+U 2 1 5DB1CD50
+P 8950 5700
+F 0 "U7" H 8950 6067 50  0000 C CNN
+F 1 "TL072" H 8950 5976 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8950 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8950 5700 50  0001 C CNN
+	2    8950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5DB2EADA
+P 3550 5850
+AR Path="/5DB2EADA" Ref="R?"  Part="1" 
+AR Path="/5D2AE37F/5DB2EADA" Ref="R12"  Part="1" 
+F 0 "R12" V 3755 5850 50  0000 C CNN
+F 1 "10K" V 3664 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3590 5840 50  0001 C CNN
+F 3 "~" H 3550 5850 50  0001 C CNN
+	1    3550 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5DB2F23D
+P 4250 6350
+AR Path="/5DB2F23D" Ref="R?"  Part="1" 
+AR Path="/5D2AE37F/5DB2F23D" Ref="R14"  Part="1" 
+F 0 "R14" V 4455 6350 50  0000 C CNN
+F 1 "10K" V 4364 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4290 6340 50  0001 C CNN
+F 3 "~" H 4250 6350 50  0001 C CNN
+	1    4250 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 6650 3050 5850
+Wire Wire Line
+	3050 5850 3400 5850
+Wire Wire Line
+	3700 5850 3850 5850
+Wire Wire Line
+	3850 5850 3850 6350
+Wire Wire Line
+	3850 6350 4100 6350
+Connection ~ 3850 5850
+Wire Wire Line
+	3850 5850 3950 5850
+Wire Wire Line
+	4400 6350 4700 6350
+Wire Wire Line
+	4700 6350 4700 5750
+Wire Wire Line
+	4700 5750 4550 5750
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5DB3AD68
+P 3850 5650
+AR Path="/5DB3AD68" Ref="#PWR?"  Part="1" 
+AR Path="/5D2AE37F/5DB3AD68" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 3850 5400 50  0001 C CNN
+F 1 "GNDREF" H 3855 5477 50  0001 C CNN
+F 2 "" H 3850 5650 50  0001 C CNN
+F 3 "" H 3850 5650 50  0001 C CNN
+	1    3850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5650 3950 5650
+$Comp
+L Amplifier_Operational:TL072 U7
+U 3 1 5DB44A18
+P 8700 4050
+F 0 "U7" H 8658 4096 50  0000 L CNN
+F 1 "TL072" H 8658 4005 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8700 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8700 4050 50  0001 C CNN
+	3    8700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5DB46C54
+P 8600 3650
+AR Path="/5DB46C54" Ref="#PWR?"  Part="1" 
+AR Path="/5D2AE37F/5DB46C54" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 8600 3500 50  0001 C CNN
+F 1 "+12V" H 8615 3823 50  0000 C CNN
+F 2 "" H 8600 3650 50  0001 C CNN
+F 3 "" H 8600 3650 50  0001 C CNN
+	1    8600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
 L power:-12V #PWR?
-U 1 1 5D402F24
-P 2900 3850
-AR Path="/5D402F24" Ref="#PWR?"  Part="1" 
-AR Path="/5D2AE37F/5D402F24" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR0119" H 2900 3950 50  0001 C CNN
-F 1 "-12V" H 2915 4023 50  0000 C CNN
-F 2 "" H 2900 3850 50  0001 C CNN
-F 3 "" H 2900 3850 50  0001 C CNN
-	1    2900 3850
+U 1 1 5DB46EFA
+P 8600 4550
+AR Path="/5DB46EFA" Ref="#PWR?"  Part="1" 
+AR Path="/5D2AE37F/5DB46EFA" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 8600 4650 50  0001 C CNN
+F 1 "-12V" H 8615 4723 50  0000 C CNN
+F 2 "" H 8600 4550 50  0001 C CNN
+F 3 "" H 8600 4550 50  0001 C CNN
+	1    8600 4550
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	8600 3650 8600 3750
+Wire Wire Line
+	8600 4350 8600 4550
+Text HLabel 4850 5750 2    50   Output ~ 0
+RAMP
+Wire Wire Line
+	4700 5750 4850 5750
+Connection ~ 4700 5750
 $EndSCHEMATC
