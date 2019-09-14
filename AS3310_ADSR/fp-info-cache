@@ -1,4 +1,4 @@
-15943690939296717
+15952406237734545
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44085,6 +44085,48 @@ single digit 7 segemnt red/green LED
 0
 10
 10
+Eurorack
+Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
+Eurorack
+knob_tick_marks
+Imported from knob_tick_marks.svg
+svg2mod
+0
+0
+0
+Eurorack
+knob_tick_marks_lg
+Imported from knob_tick_marks_lg.svg
+svg2mod
+0
+0
+0
+Eurorack
+Potentiometer_TT_P0915N
+http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_PanelPot_P09xSeries.pdf
+potentiometer vertical TT P0915N single
+0
+5
+3
+Eurorack
+Schurter_48322211
+
+
+0
+3
+3
+Eurorack
+TT_P0915N
+
+
+0
+5
+3
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

@@ -1,11 +1,11 @@
-update=Tuesday, August 20, 2019 at 09:21:26 PM
+update=Friday, September 13, 2019 at 06:01:04 PM
 last_client=kicad
 [general]
 version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=AS3310_ADSR.net
+LastNetListRead=AS3310_ADSR_IO.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -21,7 +21,7 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 ViaDiameter1=0.8
 ViaDrill1=0.4
-ViaDiameter2=3.2
+ViaDiameter2=4
 ViaDrill2=3
 dPairWidth1=0.2
 dPairGap1=0.25
