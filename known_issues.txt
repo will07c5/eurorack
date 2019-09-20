@@ -1,9 +1,10 @@
 ================ AS3340_VCO =================
 
 - PWM input is inverted
-- R10 busted??
+- R10 busted?? yes, pwm works with resolder
 - Make rear CV input disabled when CV1 is plugged in
 - Need more metal around mounting holes
+- Output should be around 10 VPP
 
 ================ AS3310_ADSR ================
 
