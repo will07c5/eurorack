@@ -1,0 +1,42 @@
+(export (version D)
+  (design
+    (source "/Users/glls/Library/Mobile Documents/com~apple~CloudDocs/eurorack/AS3340_VCO_FP/AS3340_VCO_FP.sch")
+    (date "Tuesday, September 10, 2019 at 08:23:46 PM")
+    (tool "Eeschema (5.1.2-1)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source AS3340_VCO_FP.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref TP1)
+      (value TestPoint)
+      (footprint TestPoint:TestPoint_Pad_1.0x1.0mm)
+      (datasheet ~)
+      (libsource (lib Connector) (part TestPoint) (description "test point"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5D78B81D)))
+  (libparts
+    (libpart (lib Connector) (part TestPoint)
+      (description "test point")
+      (docs ~)
+      (footprints
+        (fp Pin*)
+        (fp Test*))
+      (fields
+        (field (name Reference) TP)
+        (field (name Value) TestPoint))
+      (pins
+        (pin (num 1) (name 1) (type passive)))))
+  (libraries
+    (library (logical Connector)
+      (uri "/Library/Application Support/kicad/library/Connector.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref TP1) (pin 1)))))
