@@ -10,6 +10,7 @@
 
 - Missing descriptions of ports on the silk screen
 - Need more metal around mounting holes
+- Add LED
 
 ================ AS3360_VCA =================
 
