@@ -1,11 +1,21 @@
-update=Wednesday, August 14, 2019 at 06:42:19 PM
+update=Tue 24 Sep 2019 07:52:31 PM PDT
 last_client=kicad
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=AS3320_VCF.net
+LastNetListRead=VCF_Main.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -49,7 +59,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
