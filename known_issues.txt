@@ -1,30 +1,10 @@
 ================ AS3340_VCO =================
 
-- PWM input is inverted
-- R10 busted?? yes, pwm works with resolder
-- Make rear CV input disabled when CV1 is plugged in
-- Need more metal around mounting holes
-- Output should be around 10 VPP
-- Footprint for mica cap is wrong
-- IO board is a weird size
-
 ================ AS3310_ADSR ================
-
-- Missing descriptions of ports on the silk screen
-- Need more metal around mounting holes
-- Add LED
 
 ================ AS3360_VCA =================
 
-- Missing descriptions of ports on the silk screen
-- Need more metal around mounting holes
-- Op amp -12V rail connected to ground
-
 ================ AS3320_VCF =================
-
-- Missing descriptions of ports on the silk screen
-- Need more metal around mounting holes
-- Possibly lower R8, R13 and R20 values since running at -12V rather than -15V
 
 ================ ER_Bus_Board ===============
 
