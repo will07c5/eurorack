@@ -1008,4 +1008,92 @@ Wire Wire Line
 	9150 2800 10050 2800
 Text Label 10050 2800 0    50   ~ 0
 Ramp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D8F2482
+P 9700 800
+F 0 "H1" H 9800 849 50  0000 L CNN
+F 1 "Top_MH1" H 9800 758 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 9700 800 50  0001 C CNN
+F 3 "~" H 9700 800 50  0001 C CNN
+	1    9700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0137
+U 1 1 5D8F317F
+P 9700 900
+F 0 "#PWR0137" H 9700 650 50  0001 C CNN
+F 1 "GNDREF" H 9705 727 50  0001 C CNN
+F 2 "" H 9700 900 50  0001 C CNN
+F 3 "" H 9700 900 50  0001 C CNN
+	1    9700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D8F3A73
+P 10400 800
+F 0 "H3" H 10500 849 50  0000 L CNN
+F 1 "Top_MH2" H 10500 758 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 10400 800 50  0001 C CNN
+F 3 "~" H 10400 800 50  0001 C CNN
+	1    10400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0138
+U 1 1 5D8F3A79
+P 10400 900
+F 0 "#PWR0138" H 10400 650 50  0001 C CNN
+F 1 "GNDREF" H 10405 727 50  0001 C CNN
+F 2 "" H 10400 900 50  0001 C CNN
+F 3 "" H 10400 900 50  0001 C CNN
+	1    10400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D9038B5
+P 9700 1300
+F 0 "H2" H 9800 1349 50  0000 L CNN
+F 1 "Bottom_MH1" H 9800 1258 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 9700 1300 50  0001 C CNN
+F 3 "~" H 9700 1300 50  0001 C CNN
+	1    9700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0139
+U 1 1 5D9038BB
+P 9700 1400
+F 0 "#PWR0139" H 9700 1150 50  0001 C CNN
+F 1 "GNDREF" H 9705 1227 50  0001 C CNN
+F 2 "" H 9700 1400 50  0001 C CNN
+F 3 "" H 9700 1400 50  0001 C CNN
+	1    9700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D9038C1
+P 10400 1300
+F 0 "H4" H 10500 1349 50  0000 L CNN
+F 1 "Bottom_MH2" H 10500 1258 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 10400 1300 50  0001 C CNN
+F 3 "~" H 10400 1300 50  0001 C CNN
+	1    10400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0140
+U 1 1 5D9038C7
+P 10400 1400
+F 0 "#PWR0140" H 10400 1150 50  0001 C CNN
+F 1 "GNDREF" H 10405 1227 50  0001 C CNN
+F 2 "" H 10400 1400 50  0001 C CNN
+F 3 "" H 10400 1400 50  0001 C CNN
+	1    10400 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

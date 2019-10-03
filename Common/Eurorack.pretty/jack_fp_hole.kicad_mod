@@ -1,0 +1,9 @@
+(module jack_fp_hole (layer F.Cu) (tedit 5D8D3F48)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value jack_fp_hole (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7.999999 7.999999) (drill 6.199988) (layers *.Cu *.Mask))
+)

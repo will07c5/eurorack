@@ -493,10 +493,10 @@ In_3
 Text Label 7700 2900 0    50   ~ 0
 Out
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR01
 U 1 1 5D8D5D9B
 P 4750 2950
-F 0 "#PWR?" H 4750 2800 50  0001 C CNN
+F 0 "#PWR01" H 4750 2800 50  0001 C CNN
 F 1 "+12V" H 4765 3123 50  0000 C CNN
 F 2 "" H 4750 2950 50  0001 C CNN
 F 3 "" H 4750 2950 50  0001 C CNN
@@ -505,4 +505,92 @@ F 3 "" H 4750 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 2950 4750 3100
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D92F84E
+P 5900 850
+F 0 "H1" H 6000 899 50  0000 L CNN
+F 1 "Top_MH1" H 6000 808 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 5900 850 50  0001 C CNN
+F 3 "~" H 5900 850 50  0001 C CNN
+	1    5900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR02
+U 1 1 5D92FCB3
+P 5900 950
+F 0 "#PWR02" H 5900 700 50  0001 C CNN
+F 1 "GNDREF" H 5905 777 50  0001 C CNN
+F 2 "" H 5900 950 50  0001 C CNN
+F 3 "" H 5900 950 50  0001 C CNN
+	1    5900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D930C42
+P 6750 850
+F 0 "H3" H 6850 899 50  0000 L CNN
+F 1 "Top_MH2" H 6850 808 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 6750 850 50  0001 C CNN
+F 3 "~" H 6750 850 50  0001 C CNN
+	1    6750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR04
+U 1 1 5D930C48
+P 6750 950
+F 0 "#PWR04" H 6750 700 50  0001 C CNN
+F 1 "GNDREF" H 6755 777 50  0001 C CNN
+F 2 "" H 6750 950 50  0001 C CNN
+F 3 "" H 6750 950 50  0001 C CNN
+	1    6750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D931DD2
+P 5900 1250
+F 0 "H2" H 6000 1299 50  0000 L CNN
+F 1 "Bottom_MH1" H 6000 1208 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 5900 1250 50  0001 C CNN
+F 3 "~" H 5900 1250 50  0001 C CNN
+	1    5900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR03
+U 1 1 5D931DD8
+P 5900 1350
+F 0 "#PWR03" H 5900 1100 50  0001 C CNN
+F 1 "GNDREF" H 5905 1177 50  0001 C CNN
+F 2 "" H 5900 1350 50  0001 C CNN
+F 3 "" H 5900 1350 50  0001 C CNN
+	1    5900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D932EC2
+P 6750 1250
+F 0 "H4" H 6850 1299 50  0000 L CNN
+F 1 "Bottom_MH2" H 6850 1208 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 6750 1250 50  0001 C CNN
+F 3 "~" H 6750 1250 50  0001 C CNN
+	1    6750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR05
+U 1 1 5D932EC8
+P 6750 1350
+F 0 "#PWR05" H 6750 1100 50  0001 C CNN
+F 1 "GNDREF" H 6755 1177 50  0001 C CNN
+F 2 "" H 6750 1350 50  0001 C CNN
+F 3 "" H 6750 1350 50  0001 C CNN
+	1    6750 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

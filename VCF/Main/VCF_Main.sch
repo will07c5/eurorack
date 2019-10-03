@@ -1438,4 +1438,172 @@ Wire Wire Line
 Wire Wire Line
 	3350 7350 3350 7300
 Connection ~ 2850 7350
+$Comp
+L Device:C C10
+U 1 1 5D939BB0
+P 2750 5700
+F 0 "C10" V 3002 5700 50  0000 C CNN
+F 1 "C" V 2911 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2788 5550 50  0001 C CNN
+F 3 "~" H 2750 5700 50  0001 C CNN
+	1    2750 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 5250 2350 5700
+Wire Wire Line
+	2350 5700 2600 5700
+Connection ~ 2350 5250
+Wire Wire Line
+	3150 5250 3150 5700
+Wire Wire Line
+	3150 5700 2900 5700
+Connection ~ 3150 5250
+$Comp
+L Device:C C11
+U 1 1 5D954A6E
+P 6250 4750
+F 0 "C11" V 6502 4750 50  0000 C CNN
+F 1 "C" V 6411 4750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 4600 50  0001 C CNN
+F 3 "~" H 6250 4750 50  0001 C CNN
+	1    6250 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4300 5650 4750
+Wire Wire Line
+	5650 4750 6100 4750
+Wire Wire Line
+	6400 4750 6650 4750
+Wire Wire Line
+	6650 4750 6650 4300
+$Comp
+L Device:C C13
+U 1 1 5D970860
+P 7250 4750
+F 0 "C13" V 7502 4750 50  0000 C CNN
+F 1 "C" V 7411 4750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 4600 50  0001 C CNN
+F 3 "~" H 7250 4750 50  0001 C CNN
+	1    7250 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 4750 7100 4750
+Connection ~ 6650 4750
+Wire Wire Line
+	7400 4750 7700 4750
+Wire Wire Line
+	7700 4750 7700 4300
+Connection ~ 7700 4300
+$Comp
+L Device:C C12
+U 1 1 5D98CF1C
+P 7000 6350
+F 0 "C12" V 7252 6350 50  0000 C CNN
+F 1 "C" V 7161 6350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7038 6200 50  0001 C CNN
+F 3 "~" H 7000 6350 50  0001 C CNN
+	1    7000 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 6350 6550 6350
+Wire Wire Line
+	6550 6350 6550 5950
+Connection ~ 6550 5950
+Wire Wire Line
+	7150 6350 7350 6350
+Wire Wire Line
+	7350 6350 7350 5950
+Connection ~ 7350 5950
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D9AC4F4
+P 1050 700
+F 0 "H1" H 1150 749 50  0000 L CNN
+F 1 "Top_MH1" H 1150 658 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 1050 700 50  0001 C CNN
+F 3 "~" H 1050 700 50  0001 C CNN
+	1    1050 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0114
+U 1 1 5D9AD073
+P 1050 800
+F 0 "#PWR0114" H 1050 550 50  0001 C CNN
+F 1 "GNDREF" H 1055 627 50  0001 C CNN
+F 2 "" H 1050 800 50  0001 C CNN
+F 3 "" H 1050 800 50  0001 C CNN
+	1    1050 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D9AE4DC
+P 1900 700
+F 0 "H3" H 2000 749 50  0000 L CNN
+F 1 "Top_MH2" H 2000 658 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 1900 700 50  0001 C CNN
+F 3 "~" H 1900 700 50  0001 C CNN
+	1    1900 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0115
+U 1 1 5D9AE4E2
+P 1900 800
+F 0 "#PWR0115" H 1900 550 50  0001 C CNN
+F 1 "GNDREF" H 1905 627 50  0001 C CNN
+F 2 "" H 1900 800 50  0001 C CNN
+F 3 "" H 1900 800 50  0001 C CNN
+	1    1900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D9BC519
+P 1050 1100
+F 0 "H2" H 1150 1149 50  0000 L CNN
+F 1 "Bottom_MH1" H 1150 1058 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 1050 1100 50  0001 C CNN
+F 3 "~" H 1050 1100 50  0001 C CNN
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0116
+U 1 1 5D9BC51F
+P 1050 1200
+F 0 "#PWR0116" H 1050 950 50  0001 C CNN
+F 1 "GNDREF" H 1055 1027 50  0001 C CNN
+F 2 "" H 1050 1200 50  0001 C CNN
+F 3 "" H 1050 1200 50  0001 C CNN
+	1    1050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D9CA89E
+P 1900 1100
+F 0 "H4" H 2000 1149 50  0000 L CNN
+F 1 "Bottom_MH2" H 2000 1058 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 1900 1100 50  0001 C CNN
+F 3 "~" H 1900 1100 50  0001 C CNN
+	1    1900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0117
+U 1 1 5D9CA8A4
+P 1900 1200
+F 0 "#PWR0117" H 1900 950 50  0001 C CNN
+F 1 "GNDREF" H 1905 1027 50  0001 C CNN
+F 2 "" H 1900 1200 50  0001 C CNN
+F 3 "" H 1900 1200 50  0001 C CNN
+	1    1900 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

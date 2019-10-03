@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:AS3340_VCO_IO-cache
-EELAYER 29 0
+LIBS:VCO_IO-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -820,4 +820,92 @@ Text Label 2050 3750 0    50   ~ 0
 LIN
 Text Label 9500 4400 0    50   ~ 0
 REAR_CV
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D8EEF13
+P 950 1050
+F 0 "H1" H 1050 1099 50  0000 L CNN
+F 1 "Top_MH1" H 1050 1008 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 950 1050 50  0001 C CNN
+F 3 "~" H 950 1050 50  0001 C CNN
+	1    950  1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D8EF4EF
+P 1550 1050
+F 0 "H3" H 1650 1099 50  0000 L CNN
+F 1 "Top_MH2" H 1650 1008 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 1550 1050 50  0001 C CNN
+F 3 "~" H 1550 1050 50  0001 C CNN
+	1    1550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0103
+U 1 1 5D8F337E
+P 950 1150
+F 0 "#PWR0103" H 950 900 50  0001 C CNN
+F 1 "GNDREF" H 955 977 50  0001 C CNN
+F 2 "" H 950 1150 50  0001 C CNN
+F 3 "" H 950 1150 50  0001 C CNN
+	1    950  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0104
+U 1 1 5D8F3BC6
+P 1550 1150
+F 0 "#PWR0104" H 1550 900 50  0001 C CNN
+F 1 "GNDREF" H 1555 977 50  0001 C CNN
+F 2 "" H 1550 1150 50  0001 C CNN
+F 3 "" H 1550 1150 50  0001 C CNN
+	1    1550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D8F50FF
+P 950 1550
+F 0 "H2" H 1050 1599 50  0000 L CNN
+F 1 "Bottom_MH1" H 1050 1508 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 950 1550 50  0001 C CNN
+F 3 "~" H 950 1550 50  0001 C CNN
+	1    950  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D8F5105
+P 1550 1550
+F 0 "H4" H 1650 1599 50  0000 L CNN
+F 1 "Bottom_MH2" H 1650 1508 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 1550 1550 50  0001 C CNN
+F 3 "~" H 1550 1550 50  0001 C CNN
+	1    1550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0105
+U 1 1 5D8F510B
+P 950 1650
+F 0 "#PWR0105" H 950 1400 50  0001 C CNN
+F 1 "GNDREF" H 955 1477 50  0001 C CNN
+F 2 "" H 950 1650 50  0001 C CNN
+F 3 "" H 950 1650 50  0001 C CNN
+	1    950  1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0106
+U 1 1 5D8F5111
+P 1550 1650
+F 0 "#PWR0106" H 1550 1400 50  0001 C CNN
+F 1 "GNDREF" H 1555 1477 50  0001 C CNN
+F 2 "" H 1550 1650 50  0001 C CNN
+F 3 "" H 1550 1650 50  0001 C CNN
+	1    1550 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

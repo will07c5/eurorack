@@ -1,11 +1,11 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
 
   (general
     (thickness 1.6)
     (drawings 57)
-    (tracks 15)
+    (tracks 0)
     (zones 0)
-    (modules 9)
+    (modules 23)
     (nets 2)
   )
 
@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerbers/"))
   )
 
   (net 0 "")
@@ -708,30 +708,198 @@
       (xy -0.01074 -7.853517)) (layer F.SilkS) (width 0))
   )
 
-  (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D78BF58)
-    (at 87.63 41.91)
-    (descr "SMD rectangular pad as test Point, square 1.0mm side length")
-    (tags "test point SMD pad rectangle square")
-    (path /5D78B81D)
-    (attr virtual)
-    (fp_text reference TP1 (at 0 1.448) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  (module Eurorack:eurorack_mounting_hole (layer F.Cu) (tedit 5D8D45C6) (tstamp 5D8D9E97)
+    (at 71.374 42.926)
+    (path /5D8DCDFB)
+    (fp_text reference H1 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 -1.55) (layer B.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text value Top_MH (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 1.45) (layer B.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:pot_fp_hole (layer F.Cu) (tedit 5D8D3EC2) (tstamp 5D8D9E9C)
+    (at 75.184 59.69)
+    (path /5D8D533E)
+    (fp_text reference H2 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -0.7 0.7) (end 0.7 0.7) (layer B.SilkS) (width 0.12))
-    (fp_line (start 0.7 0.7) (end 0.7 -0.7) (layer B.SilkS) (width 0.12))
-    (fp_line (start 0.7 -0.7) (end -0.7 -0.7) (layer B.SilkS) (width 0.12))
-    (fp_line (start -0.7 -0.7) (end -0.7 0.7) (layer B.SilkS) (width 0.12))
-    (fp_line (start -1 1) (end 1 1) (layer B.CrtYd) (width 0.05))
-    (fp_line (start -1 1) (end -1 -1) (layer B.CrtYd) (width 0.05))
-    (fp_line (start 1 -1) (end 1 1) (layer B.CrtYd) (width 0.05))
-    (fp_line (start 1 -1) (end -1 -1) (layer B.CrtYd) (width 0.05))
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers B.Cu B.Mask)
+    (fp_text value Cutoff (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 11.999999 11.999999) (drill 7.300011) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:pot_fp_hole (layer F.Cu) (tedit 5D8D3EC2) (tstamp 5D8D9EA1)
+    (at 75.184 76.708)
+    (path /5D8D6BC5)
+    (fp_text reference H3 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Cutoff_Amt (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 11.999999 11.999999) (drill 7.300011) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:jack_fp_hole (layer F.Cu) (tedit 5D8D3F48) (tstamp 5D8D9EA6)
+    (at 75.184 94.615)
+    (path /5D8D72C7)
+    (fp_text reference H4 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Cutoff_Mod (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 7.999999 7.999999) (drill 6.199988) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:pot_fp_hole (layer F.Cu) (tedit 5D8D3EC2) (tstamp 5D8D9EAB)
+    (at 75.184 110.49)
+    (path /5D8D96F6)
+    (fp_text reference H5 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value In_Amt_1 (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 11.999999 11.999999) (drill 7.300011) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:pot_fp_hole (layer F.Cu) (tedit 5D8D3EC2) (tstamp 5D8D9EB0)
+    (at 75.184 126.365)
+    (path /5D8D9BF0)
+    (fp_text reference H6 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value In_Amt_2 (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 11.999999 11.999999) (drill 7.300011) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:pot_fp_hole (layer F.Cu) (tedit 5D8D3EC2) (tstamp 5D8D9EB5)
+    (at 75.184 142.24)
+    (path /5D8DA138)
+    (fp_text reference H7 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value In_Amt_3 (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 11.999999 11.999999) (drill 7.300011) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:eurorack_mounting_hole (layer F.Cu) (tedit 5D8D45C6) (tstamp 5D8D9EBA)
+    (at 71.374 165.354)
+    (path /5D8DD863)
+    (fp_text reference H8 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Bottom_MH (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:pot_fp_hole (layer F.Cu) (tedit 5D8D3EC2) (tstamp 5D8D9EBF)
+    (at 92.456 59.69)
+    (path /5D8D79D9)
+    (fp_text reference H9 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Res (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 11.999999 11.999999) (drill 7.300011) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:pot_fp_hole (layer F.Cu) (tedit 5D8D3EC2) (tstamp 5D8D9EC4)
+    (at 92.456 76.835)
+    (path /5D8D8464)
+    (fp_text reference H10 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Res_Amt (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 11.999999 11.999999) (drill 7.300011) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:jack_fp_hole (layer F.Cu) (tedit 5D8D3F48) (tstamp 5D8D9EC9)
+    (at 92.456 94.615)
+    (path /5D8D8C76)
+    (fp_text reference H11 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Res_Mod (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 7.999999 7.999999) (drill 6.199988) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:jack_fp_hole (layer F.Cu) (tedit 5D8D3F48) (tstamp 5D8D9ECE)
+    (at 92.456 110.49)
+    (path /5D8DAFD2)
+    (fp_text reference H12 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value In_1 (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 7.999999 7.999999) (drill 6.199988) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:jack_fp_hole (layer F.Cu) (tedit 5D8D3F48) (tstamp 5D8D9ED3)
+    (at 92.456 126.492)
+    (path /5D8DB975)
+    (fp_text reference H13 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value In_2 (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 7.999999 7.999999) (drill 6.199988) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:jack_fp_hole (layer F.Cu) (tedit 5D8D3F48) (tstamp 5D8D9ED8)
+    (at 92.456 142.24)
+    (path /5D8DC2DB)
+    (fp_text reference H14 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value In_3 (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 7.999999 7.999999) (drill 6.199988) (layers *.Cu *.Mask)
+      (net 1 GND))
+  )
+
+  (module Eurorack:jack_fp_hole (layer F.Cu) (tedit 5D8D3F48) (tstamp 5D8D9EDD)
+    (at 91.44 154.94)
+    (path /5D8E0119)
+    (fp_text reference H15 (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Out (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 7.999999 7.999999) (drill 6.199988) (layers *.Cu *.Mask)
       (net 1 GND))
   )
 
@@ -756,10 +924,10 @@
   (gr_line (start 88.265 110.49) (end 86.995 111.76) (layer F.SilkS) (width 0.254))
   (gr_line (start 88.265 110.49) (end 86.995 109.22) (layer F.SilkS) (width 0.254))
   (gr_line (start 81.28 110.49) (end 88.265 110.49) (layer F.SilkS) (width 0.254))
-  (gr_text Mod (at 88.011 86.995) (layer F.SilkS) (tstamp 5D895B50)
+  (gr_text Mod (at 88.265 86.995) (layer F.SilkS) (tstamp 5D92EAA4)
     (effects (font (size 1.524 1.524) (thickness 0.254)))
   )
-  (gr_text Mod (at 71.12 87.63) (layer F.SilkS) (tstamp 5D8AEC5F)
+  (gr_text Mod (at 71.12 86.995) (layer F.SilkS) (tstamp 5D8AEC5F)
     (effects (font (size 1.524 1.524) (thickness 0.254)))
   )
   (gr_text Res (at 92.456 49.53) (layer F.SilkS) (tstamp 5D8AEE1E)
@@ -803,7 +971,7 @@
   (gr_text "VCF Front Panel Rev 1" (at 102.235 53.975 90) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text VCF (at 83.82 43.18) (layer F.SilkS)
+  (gr_text VCF (at 83.82 43.815) (layer F.SilkS)
     (effects (font (size 4.064 4.064) (thickness 0.4064)))
   )
   (gr_line (start 63.754 168.402) (end 63.754 39.878) (layer Edge.Cuts) (width 0.05) (tstamp 5D7807C7))
@@ -811,24 +979,8 @@
   (gr_line (start 103.886 39.878) (end 103.886 168.402) (layer Edge.Cuts) (width 0.05) (tstamp 5D895114))
   (gr_line (start 63.754 39.878) (end 103.886 39.878) (layer Edge.Cuts) (width 0.05) (tstamp 5D784D4E))
 
-  (via (at 92.456 76.835) (size 11.999999) (drill 7.300011) (layers F.Cu B.Cu) (net 1) (tstamp 5D8950C8))
-  (via (at 75.184 76.708) (size 11.999999) (drill 7.300011) (layers F.Cu B.Cu) (net 1) (tstamp 5D8950C8))
-  (via (at 75.184 110.49) (size 11.999999) (drill 7.300011) (layers F.Cu B.Cu) (net 1) (tstamp 5D8950C8))
-  (via (at 75.184 126.365) (size 11.999999) (drill 7.300011) (layers F.Cu B.Cu) (net 1) (tstamp 5D8950C8))
-  (via (at 75.184 142.24) (size 11.999999) (drill 7.300011) (layers F.Cu B.Cu) (net 1) (tstamp 5D8950C8))
-  (via (at 75.184 94.615) (size 7.999999) (drill 6.199988) (layers F.Cu B.Cu) (net 1) (tstamp 5D856480))
-  (via (at 75.184 59.69) (size 11.999999) (drill 7.300011) (layers F.Cu B.Cu) (net 1) (tstamp 5D7C68A6))
-  (via (at 92.456 126.492) (size 7.999999) (drill 6.199988) (layers F.Cu B.Cu) (net 1) (tstamp 5D7C68A7))
-  (via (at 92.456 94.615) (size 7.999999) (drill 6.199988) (layers F.Cu B.Cu) (net 1) (tstamp 5D7C68A8))
-  (via (at 92.456 142.24) (size 7.999999) (drill 6.199988) (layers F.Cu B.Cu) (net 1) (tstamp 5D7C68A9))
-  (via (at 92.456 110.49) (size 7.999999) (drill 6.199988) (layers F.Cu B.Cu) (net 1) (tstamp 5D7C68AA))
-  (via (at 91.44 154.94) (size 7.999999) (drill 6.199988) (layers F.Cu B.Cu) (net 1) (tstamp 5D7C7171))
-  (via (at 92.456 59.69) (size 11.999999) (drill 7.300011) (layers F.Cu B.Cu) (net 1) (tstamp 5D79869F))
-  (via (at 71.374 42.926) (size 4.99999) (drill 3.2004) (layers F.Cu B.Cu) (net 1) (tstamp 5D785324))
-  (via (at 71.374 165.354) (size 4.99999) (drill 3.2004) (layers F.Cu B.Cu) (net 1) (tstamp 5D7852D5))
-
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D92EB26) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
@@ -842,8 +994,8 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D92EB23) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
@@ -853,20 +1005,7 @@
     )
     (filled_polygon
       (pts
-        (xy 103.226001 167.742) (xy 64.414 167.742) (xy 64.414 42.41) (xy 86.491928 42.41) (xy 86.504188 42.534482)
-        (xy 86.540498 42.65418) (xy 86.599463 42.764494) (xy 86.678815 42.861185) (xy 86.775506 42.940537) (xy 86.88582 42.999502)
-        (xy 87.005518 43.035812) (xy 87.13 43.048072) (xy 87.34425 43.045) (xy 87.503 42.88625) (xy 87.503 42.037)
-        (xy 87.757 42.037) (xy 87.757 42.88625) (xy 87.91575 43.045) (xy 88.13 43.048072) (xy 88.254482 43.035812)
-        (xy 88.37418 42.999502) (xy 88.484494 42.940537) (xy 88.581185 42.861185) (xy 88.660537 42.764494) (xy 88.719502 42.65418)
-        (xy 88.755812 42.534482) (xy 88.768072 42.41) (xy 88.765 42.19575) (xy 88.60625 42.037) (xy 87.757 42.037)
-        (xy 87.503 42.037) (xy 86.65375 42.037) (xy 86.495 42.19575) (xy 86.491928 42.41) (xy 64.414 42.41)
-        (xy 64.414 41.41) (xy 86.491928 41.41) (xy 86.495 41.62425) (xy 86.65375 41.783) (xy 87.503 41.783)
-        (xy 87.503 40.93375) (xy 87.757 40.93375) (xy 87.757 41.783) (xy 88.60625 41.783) (xy 88.765 41.62425)
-        (xy 88.768072 41.41) (xy 88.755812 41.285518) (xy 88.719502 41.16582) (xy 88.660537 41.055506) (xy 88.581185 40.958815)
-        (xy 88.484494 40.879463) (xy 88.37418 40.820498) (xy 88.254482 40.784188) (xy 88.13 40.771928) (xy 87.91575 40.775)
-        (xy 87.757 40.93375) (xy 87.503 40.93375) (xy 87.34425 40.775) (xy 87.13 40.771928) (xy 87.005518 40.784188)
-        (xy 86.88582 40.820498) (xy 86.775506 40.879463) (xy 86.678815 40.958815) (xy 86.599463 41.055506) (xy 86.540498 41.16582)
-        (xy 86.504188 41.285518) (xy 86.491928 41.41) (xy 64.414 41.41) (xy 64.414 40.538) (xy 103.226 40.538)
+        (xy 103.226001 167.742) (xy 64.414 167.742) (xy 64.414 40.538) (xy 103.226 40.538)
       )
     )
   )

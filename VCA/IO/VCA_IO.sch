@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:AS3360_VCA-cache
-EELAYER 29 0
+LIBS:VCA_IO-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -500,4 +500,92 @@ Wire Wire Line
 	8800 3300 9100 3300
 Wire Wire Line
 	8800 2950 8800 3300
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D9303C3
+P 8650 950
+F 0 "H1" H 8750 999 50  0000 L CNN
+F 1 "Top_MH1" H 8750 908 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 8650 950 50  0001 C CNN
+F 3 "~" H 8650 950 50  0001 C CNN
+	1    8650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0109
+U 1 1 5D930ACE
+P 8650 1050
+F 0 "#PWR0109" H 8650 800 50  0001 C CNN
+F 1 "GNDREF" H 8655 877 50  0001 C CNN
+F 2 "" H 8650 1050 50  0001 C CNN
+F 3 "" H 8650 1050 50  0001 C CNN
+	1    8650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D931B86
+P 9700 950
+F 0 "H3" H 9800 999 50  0000 L CNN
+F 1 "Top_MH2" H 9800 908 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 9700 950 50  0001 C CNN
+F 3 "~" H 9700 950 50  0001 C CNN
+	1    9700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0115
+U 1 1 5D931B8C
+P 9700 1050
+F 0 "#PWR0115" H 9700 800 50  0001 C CNN
+F 1 "GNDREF" H 9705 877 50  0001 C CNN
+F 2 "" H 9700 1050 50  0001 C CNN
+F 3 "" H 9700 1050 50  0001 C CNN
+	1    9700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D9344C5
+P 8650 1450
+F 0 "H2" H 8750 1499 50  0000 L CNN
+F 1 "Bottom_MH1" H 8750 1408 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 8650 1450 50  0001 C CNN
+F 3 "~" H 8650 1450 50  0001 C CNN
+	1    8650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0116
+U 1 1 5D9344CB
+P 8650 1550
+F 0 "#PWR0116" H 8650 1300 50  0001 C CNN
+F 1 "GNDREF" H 8655 1377 50  0001 C CNN
+F 2 "" H 8650 1550 50  0001 C CNN
+F 3 "" H 8650 1550 50  0001 C CNN
+	1    8650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D93697C
+P 9700 1450
+F 0 "H4" H 9800 1499 50  0000 L CNN
+F 1 "Bottom_MH2" H 9800 1408 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 9700 1450 50  0001 C CNN
+F 3 "~" H 9700 1450 50  0001 C CNN
+	1    9700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0117
+U 1 1 5D936982
+P 9700 1550
+F 0 "#PWR0117" H 9700 1300 50  0001 C CNN
+F 1 "GNDREF" H 9705 1377 50  0001 C CNN
+F 2 "" H 9700 1550 50  0001 C CNN
+F 3 "" H 9700 1550 50  0001 C CNN
+	1    9700 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

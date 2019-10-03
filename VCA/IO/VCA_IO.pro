@@ -1,11 +1,21 @@
-update=Friday, September 13, 2019 at 09:32:47 PM
+update=Monday, September 30, 2019 at 08:03:57 PM
 last_client=pcbnew
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=AS3360_VCA.net
+LastNetListRead=VCA_IO.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

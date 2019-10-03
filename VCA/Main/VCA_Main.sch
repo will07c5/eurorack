@@ -57,21 +57,6 @@ Wire Wire Line
 Wire Wire Line
 	10500 3550 10600 3550
 Wire Wire Line
-	10550 2950 10250 2950
-Wire Wire Line
-	10250 2950 10250 3250
-$Comp
-L power:-12V #PWR0105
-U 1 1 5D8742CF
-P 10250 3250
-F 0 "#PWR0105" H 10250 3350 50  0001 C CNN
-F 1 "-12V" H 10265 3423 50  0000 C CNN
-F 2 "" H 10250 3250 50  0001 C CNN
-F 3 "" H 10250 3250 50  0001 C CNN
-	1    10250 3250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
 	9750 5150 10600 5150
 Wire Wire Line
 	9750 5250 10600 5250
@@ -1346,4 +1331,177 @@ Wire Wire Line
 Wire Wire Line
 	8700 5500 8800 5500
 Connection ~ 8700 5500
+$Comp
+L Device:C C6
+U 1 1 5D936AAB
+P 2400 2450
+F 0 "C6" V 2148 2450 50  0000 C CNN
+F 1 "C" V 2239 2450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2438 2300 50  0001 C CNN
+F 3 "~" H 2400 2450 50  0001 C CNN
+	1    2400 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 2450 2800 2450
+Wire Wire Line
+	2800 2450 2800 2000
+Connection ~ 2800 2000
+Wire Wire Line
+	2250 2450 2000 2450
+Wire Wire Line
+	2000 2450 2000 2000
+Connection ~ 2000 2000
+$Comp
+L Device:C C8
+U 1 1 5D94AAF9
+P 3700 2350
+F 0 "C8" V 3448 2350 50  0000 C CNN
+F 1 "C" V 3539 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 2200 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2350 3300 2350
+Wire Wire Line
+	3300 2350 3300 1900
+Connection ~ 3300 1900
+Wire Wire Line
+	3850 2350 4100 2350
+Wire Wire Line
+	4100 2350 4100 1900
+Connection ~ 4100 1900
+$Comp
+L Device:C C7
+U 1 1 5D960DB1
+P 2400 5550
+F 0 "C7" V 2148 5550 50  0000 C CNN
+F 1 "C" V 2239 5550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2438 5400 50  0001 C CNN
+F 3 "~" H 2400 5550 50  0001 C CNN
+	1    2400 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 5100 2000 5550
+Wire Wire Line
+	2000 5550 2250 5550
+Connection ~ 2000 5100
+Wire Wire Line
+	2800 5100 2800 5550
+Wire Wire Line
+	2800 5550 2550 5550
+Connection ~ 2800 5100
+$Comp
+L Device:C C9
+U 1 1 5D9785AA
+P 3700 5450
+F 0 "C9" V 3448 5450 50  0000 C CNN
+F 1 "C" V 3539 5450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 5300 50  0001 C CNN
+F 3 "~" H 3700 5450 50  0001 C CNN
+	1    3700 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 5000 3300 5450
+Wire Wire Line
+	3300 5450 3550 5450
+Connection ~ 3300 5000
+Wire Wire Line
+	3850 5450 4100 5450
+Wire Wire Line
+	4100 5450 4100 5000
+Connection ~ 4100 5000
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D996C4A
+P 7650 800
+F 0 "H1" H 7750 849 50  0000 L CNN
+F 1 "Top_MH1" H 7750 758 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 7650 800 50  0001 C CNN
+F 3 "~" H 7650 800 50  0001 C CNN
+	1    7650 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0133
+U 1 1 5D997D60
+P 7650 900
+F 0 "#PWR0133" H 7650 650 50  0001 C CNN
+F 1 "GNDREF" H 7655 727 50  0001 C CNN
+F 2 "" H 7650 900 50  0001 C CNN
+F 3 "" H 7650 900 50  0001 C CNN
+	1    7650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D999222
+P 8500 800
+F 0 "H3" H 8600 849 50  0000 L CNN
+F 1 "Top_MH2" H 8600 758 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 8500 800 50  0001 C CNN
+F 3 "~" H 8500 800 50  0001 C CNN
+	1    8500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0134
+U 1 1 5D999228
+P 8500 900
+F 0 "#PWR0134" H 8500 650 50  0001 C CNN
+F 1 "GNDREF" H 8505 727 50  0001 C CNN
+F 2 "" H 8500 900 50  0001 C CNN
+F 3 "" H 8500 900 50  0001 C CNN
+	1    8500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D9A4134
+P 7650 1200
+F 0 "H2" H 7750 1249 50  0000 L CNN
+F 1 "Bottom_MH1" H 7750 1158 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 7650 1200 50  0001 C CNN
+F 3 "~" H 7650 1200 50  0001 C CNN
+	1    7650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0135
+U 1 1 5D9A413A
+P 7650 1300
+F 0 "#PWR0135" H 7650 1050 50  0001 C CNN
+F 1 "GNDREF" H 7655 1127 50  0001 C CNN
+F 2 "" H 7650 1300 50  0001 C CNN
+F 3 "" H 7650 1300 50  0001 C CNN
+	1    7650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D9AEFCE
+P 8500 1200
+F 0 "H4" H 8600 1249 50  0000 L CNN
+F 1 "Bottom_MH2" H 8600 1158 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 8500 1200 50  0001 C CNN
+F 3 "~" H 8500 1200 50  0001 C CNN
+	1    8500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0136
+U 1 1 5D9AEFD4
+P 8500 1300
+F 0 "#PWR0136" H 8500 1050 50  0001 C CNN
+F 1 "GNDREF" H 8505 1127 50  0001 C CNN
+F 2 "" H 8500 1300 50  0001 C CNN
+F 3 "" H 8500 1300 50  0001 C CNN
+	1    8500 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10550 2950
 $EndSCHEMATC
