@@ -597,8 +597,6 @@ F 3 "~" H 1500 3200 50  0001 C CNN
 	1    1500 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 3200 2050 3200
 $Comp
 L Connector:AudioJack2_SwitchT J2
 U 1 1 5D80E5AB
@@ -812,7 +810,7 @@ Text Label 7700 1950 0    50   ~ 0
 PWM
 Text Label 6750 3950 0    50   ~ 0
 CV
-Text Label 2050 3200 0    50   ~ 0
+Text Label 3000 3700 0    50   ~ 0
 SYNC
 Text Label 9500 4300 0    50   ~ 0
 SYNC
@@ -908,4 +906,89 @@ F 3 "" H 1550 1650 50  0001 C CNN
 	1    1550 1650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C1
+U 1 1 5D96B0F8
+P 5900 3250
+F 0 "C1" V 5648 3250 50  0000 C CNN
+F 1 "C" V 5739 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5938 3100 50  0001 C CNN
+F 3 "~" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D96BB82
+P 6950 3250
+F 0 "C2" V 6698 3250 50  0000 C CNN
+F 1 "C" V 6789 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6988 3100 50  0001 C CNN
+F 3 "~" H 6950 3250 50  0001 C CNN
+	1    6950 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 2850 5300 3250
+Wire Wire Line
+	5300 3250 5750 3250
+Connection ~ 5300 2850
+Wire Wire Line
+	6050 3250 6400 3250
+Wire Wire Line
+	6400 3250 6400 2850
+Wire Wire Line
+	6400 3250 6800 3250
+Connection ~ 6400 3250
+Wire Wire Line
+	7400 2850 7400 3250
+Wire Wire Line
+	7400 3250 7100 3250
+Connection ~ 7400 2850
+$Comp
+L Device:R_US R15
+U 1 1 5D97E63C
+P 2600 3450
+F 0 "R15" H 2668 3496 50  0000 L CNN
+F 1 "30K" H 2668 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2640 3440 50  0001 C CNN
+F 3 "~" H 2600 3450 50  0001 C CNN
+	1    2600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3200 2600 3300
+Wire Wire Line
+	1700 3200 2600 3200
+$Comp
+L Device:R_US R16
+U 1 1 5D9832D3
+P 2600 3950
+F 0 "R16" H 2668 3996 50  0000 L CNN
+F 1 "10K" H 2668 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2640 3940 50  0001 C CNN
+F 3 "~" H 2600 3950 50  0001 C CNN
+	1    2600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3600 2600 3700
+$Comp
+L power:GNDREF #PWR0107
+U 1 1 5D9880E4
+P 2600 4200
+F 0 "#PWR0107" H 2600 3950 50  0001 C CNN
+F 1 "GNDREF" H 2605 4027 50  0001 C CNN
+F 2 "" H 2600 4200 50  0001 C CNN
+F 3 "" H 2600 4200 50  0001 C CNN
+	1    2600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4200 2600 4100
+Wire Wire Line
+	2600 3700 3000 3700
+Connection ~ 2600 3700
+Wire Wire Line
+	2600 3700 2600 3800
 $EndSCHEMATC
