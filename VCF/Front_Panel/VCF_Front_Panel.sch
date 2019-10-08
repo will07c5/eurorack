@@ -282,7 +282,7 @@ L Mechanical:MountingHole_Pad H1
 U 1 1 5D8DCDFB
 P 3650 1250
 F 0 "H1" H 3750 1299 50  0000 L CNN
-F 1 "Top_MH" H 3750 1208 50  0000 L CNN
+F 1 "Top_MH1" H 3750 1208 50  0000 L CNN
 F 2 "Eurorack:eurorack_mounting_hole" H 3650 1250 50  0001 C CNN
 F 3 "~" H 3650 1250 50  0001 C CNN
 	1    3650 1250
@@ -304,7 +304,7 @@ L Mechanical:MountingHole_Pad H8
 U 1 1 5D8DD863
 P 3650 5900
 F 0 "H8" H 3750 5949 50  0000 L CNN
-F 1 "Bottom_MH" H 3750 5858 50  0000 L CNN
+F 1 "Bottom_MH1" H 3750 5858 50  0000 L CNN
 F 2 "Eurorack:eurorack_mounting_hole" H 3650 5900 50  0001 C CNN
 F 3 "~" H 3650 5900 50  0001 C CNN
 	1    3650 5900
@@ -341,6 +341,50 @@ F 1 "GND" H 5355 5227 50  0000 C CNN
 F 2 "" H 5350 5400 50  0001 C CNN
 F 3 "" H 5350 5400 50  0001 C CNN
 	1    5350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H16
+U 1 1 5D9BE294
+P 4450 1250
+F 0 "H16" H 4550 1299 50  0000 L CNN
+F 1 "Top_MH2" H 4550 1208 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 4450 1250 50  0001 C CNN
+F 3 "~" H 4450 1250 50  0001 C CNN
+	1    4450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5D9BE29A
+P 4450 1350
+F 0 "#PWR0116" H 4450 1100 50  0001 C CNN
+F 1 "GND" H 4455 1177 50  0000 C CNN
+F 2 "" H 4450 1350 50  0001 C CNN
+F 3 "" H 4450 1350 50  0001 C CNN
+	1    4450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H17
+U 1 1 5D9BE9E4
+P 4450 5900
+F 0 "H17" H 4550 5949 50  0000 L CNN
+F 1 "Bottom_MH2" H 4550 5858 50  0000 L CNN
+F 2 "Eurorack:eurorack_mounting_hole" H 4450 5900 50  0001 C CNN
+F 3 "~" H 4450 5900 50  0001 C CNN
+	1    4450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5D9BE9EA
+P 4450 6000
+F 0 "#PWR0117" H 4450 5750 50  0001 C CNN
+F 1 "GND" H 4455 5827 50  0000 C CNN
+F 2 "" H 4450 6000 50  0001 C CNN
+F 3 "" H 4450 6000 50  0001 C CNN
+	1    4450 6000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
