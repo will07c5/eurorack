@@ -45,7 +45,7 @@ F 1 "R_POT_US" H 3033 2155 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 3100 2200 50  0001 C CNN
 F 3 "~" H 3100 2200 50  0001 C CNN
 	1    3100 2200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV1
@@ -56,7 +56,7 @@ F 1 "R_POT_US" H 4683 2155 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 4750 2200 50  0001 C CNN
 F 3 "~" H 4750 2200 50  0001 C CNN
 	1    4750 2200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV2
@@ -67,7 +67,7 @@ F 1 "R_POT_US" H 3033 4055 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 3100 4100 50  0001 C CNN
 F 3 "~" H 3100 4100 50  0001 C CNN
 	1    3100 4100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV3
@@ -78,7 +78,7 @@ F 1 "R_POT_US" H 3033 4955 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 3100 5000 50  0001 C CNN
 F 3 "~" H 3100 5000 50  0001 C CNN
 	1    3100 5000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV5
@@ -89,7 +89,7 @@ F 1 "R_POT_US" H 3033 5905 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 3100 5950 50  0001 C CNN
 F 3 "~" H 3100 5950 50  0001 C CNN
 	1    3100 5950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:AudioJack2 J3
@@ -320,7 +320,7 @@ F 1 "R_POT_US" H 4683 3205 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 4750 3250 50  0001 C CNN
 F 3 "~" H 4750 3250 50  0001 C CNN
 	1    4750 3250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV7
@@ -331,7 +331,7 @@ F 1 "R_POT_US" H 3033 3205 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 3100 3250 50  0001 C CNN
 F 3 "~" H 3100 3250 50  0001 C CNN
 	1    3100 3250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6100 4050 6600 4050

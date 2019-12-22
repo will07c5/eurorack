@@ -23,7 +23,7 @@ F 1 "100K" H 1483 1555 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 1550 1600 50  0001 C CNN
 F 3 "~" H 1550 1600 50  0001 C CNN
 	1    1550 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV2
@@ -34,7 +34,7 @@ F 1 "100K" H 1483 2655 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 1550 2700 50  0001 C CNN
 F 3 "~" H 1550 2700 50  0001 C CNN
 	1    1550 2700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV3
@@ -45,7 +45,7 @@ F 1 "100K" H 1483 3755 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 1550 3800 50  0001 C CNN
 F 3 "~" H 1550 3800 50  0001 C CNN
 	1    1550 3800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV4
@@ -56,7 +56,7 @@ F 1 "R_POT_US" H 1483 4855 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 1550 4900 50  0001 C CNN
 F 3 "~" H 1550 4900 50  0001 C CNN
 	1    1550 4900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J2
@@ -670,72 +670,6 @@ Wire Wire Line
 Connection ~ 7600 2350
 Wire Wire Line
 	7600 2350 7850 2350
-$Comp
-L Device:CP1 C4
-U 1 1 5D86C2D5
-P 8300 4550
-F 0 "C4" H 8415 4596 50  0000 L CNN
-F 1 "CP1" H 8415 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 8300 4550 50  0001 C CNN
-F 3 "~" H 8300 4550 50  0001 C CNN
-	1    8300 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C5
-U 1 1 5D86C770
-P 8300 4950
-F 0 "C5" H 8415 4996 50  0000 L CNN
-F 1 "CP1" H 8415 4905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 8300 4950 50  0001 C CNN
-F 3 "~" H 8300 4950 50  0001 C CNN
-	1    8300 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR0128
-U 1 1 5D86CF5F
-P 8650 4750
-F 0 "#PWR0128" H 8650 4500 50  0001 C CNN
-F 1 "GNDREF" H 8655 4577 50  0001 C CNN
-F 2 "" H 8650 4750 50  0001 C CNN
-F 3 "" H 8650 4750 50  0001 C CNN
-	1    8650 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 4700 8300 4750
-Wire Wire Line
-	8300 4750 8650 4750
-Connection ~ 8300 4750
-Wire Wire Line
-	8300 4750 8300 4800
-$Comp
-L power:-12V #PWR0129
-U 1 1 5D872AB8
-P 8300 5150
-F 0 "#PWR0129" H 8300 5250 50  0001 C CNN
-F 1 "-12V" H 8315 5323 50  0000 C CNN
-F 2 "" H 8300 5150 50  0001 C CNN
-F 3 "" H 8300 5150 50  0001 C CNN
-	1    8300 5150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8300 5100 8300 5150
-$Comp
-L power:+12V #PWR0130
-U 1 1 5D875BA7
-P 8300 4350
-F 0 "#PWR0130" H 8300 4200 50  0001 C CNN
-F 1 "+12V" H 8315 4523 50  0000 C CNN
-F 2 "" H 8300 4350 50  0001 C CNN
-F 3 "" H 8300 4350 50  0001 C CNN
-	1    8300 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 4350 8300 4400
 $Comp
 L Device:LED D1
 U 1 1 5D8B3156

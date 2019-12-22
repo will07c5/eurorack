@@ -23,7 +23,7 @@ F 1 "100K" H 4133 1405 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 4200 1450 50  0001 C CNN
 F 3 "~" H 4200 1450 50  0001 C CNN
 	1    4200 1450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV2
@@ -34,7 +34,7 @@ F 1 "100K" H 4133 4255 50  0000 R CNN
 F 2 "Eurorack:Potentiometer_TT_P0915N" H 4200 4300 50  0001 C CNN
 F 3 "~" H 4200 4300 50  0001 C CNN
 	1    4200 4300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GNDREF #PWR0101

@@ -20,10 +20,10 @@ U 1 1 5D78EDF6
 P 4350 1750
 F 0 "RV3" H 4283 1796 50  0000 R CNN
 F 1 "100K" H 4283 1705 50  0000 R CNN
-F 2 "Eurorack:TT_P0915N" H 4350 1750 50  0001 C CNN
+F 2 "Eurorack:Potentiometer_TT_P0915N" H 4350 1750 50  0001 C CNN
 F 3 "~" H 4350 1750 50  0001 C CNN
 	1    4350 1750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
@@ -119,10 +119,10 @@ U 1 1 5D797880
 P 4350 2450
 F 0 "RV4" H 4283 2496 50  0000 R CNN
 F 1 "100K" H 4283 2405 50  0000 R CNN
-F 2 "Eurorack:TT_P0915N" H 4350 2450 50  0001 C CNN
+F 2 "Eurorack:Potentiometer_TT_P0915N" H 4350 2450 50  0001 C CNN
 F 3 "~" H 4350 2450 50  0001 C CNN
 	1    4350 2450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:AudioJack2 J9
@@ -274,10 +274,10 @@ U 1 1 5D7A5E22
 P 5250 6450
 F 0 "RV2" H 5183 6496 50  0000 R CNN
 F 1 "100K" H 5183 6405 50  0000 R CNN
-F 2 "Eurorack:TT_P0915N" H 5250 6450 50  0001 C CNN
+F 2 "Eurorack:Potentiometer_TT_P0915N" H 5250 6450 50  0001 C CNN
 F 3 "~" H 5250 6450 50  0001 C CNN
 	1    5250 6450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_US RV1
@@ -285,10 +285,10 @@ U 1 1 5D7A62F1
 P 4650 6000
 F 0 "RV1" H 4583 6046 50  0000 R CNN
 F 1 "100K" H 4583 5955 50  0000 R CNN
-F 2 "Eurorack:TT_P0915N" H 4650 6000 50  0001 C CNN
+F 2 "Eurorack:Potentiometer_TT_P0915N" H 4650 6000 50  0001 C CNN
 F 3 "~" H 4650 6000 50  0001 C CNN
 	1    4650 6000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:AudioJack2 J5
